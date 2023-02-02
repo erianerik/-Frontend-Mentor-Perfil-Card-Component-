@@ -1,21 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
 
 :root {
-    --bright-orange: hsl(31, 77%, 52%);
-    --dark-cyan: hsl(184, 100%, 22%);
-    --very-dark-cyan: hsl(179, 100%, 13%);
-    --transparent-white: hsla(0, 0%, 100%, 0.75);
-    --very-light-gray: hsl(0, 0%, 95%);
-    --font-family-title: 'Big Shoulders Display', cursive;
+    --dark-cyan: hsl(185, 75%, 39%);
+    --very-dark-desaturated-blue: hsl(229, 23%, 23%);
+    --dark-grayish-blue: hsl(227, 10%, 46%);
+    --dark-gray: hsl(0, 0%, 59%);
+    --white: hsl(255, 100%, 100%);
+    --light-gray: #dadada;
 }
 
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Kumbh Sans', sans-serif;
     transition: all .2s ease-in-out;
-    color: var(--very-light-gray);
 }
 
 html,
@@ -50,29 +49,4 @@ img {
 figure {
     margin-block: 0;
     margin-inline: 0;
-}
-
-.background--bright-orange {
-    background-color: var(--bright-orange);
-}
-
-
-.background--dark-cyan {
-    background-color: var(--dark-cyan);
-}
-
-.background--very-dark-cyan {
-    background-color: var(--very-dark-cyan);
-}
-
-.color--bright-orange {
-    color: var(--bright-orange);
-}
-
-.color--dark-cyan {
-    color: var(--dark-cyan);
-}
-
-.color--very-dark-cyan {
-    color: var(--very-dark-cyan);
 }
